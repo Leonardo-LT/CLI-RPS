@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(41, 40, 40);
+    height: 100vh;
+}
+
+.container {
+    height: 50%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 60px;
+}
+
+h1 {
+    text-align: center;
+    color: #a09822 ;
+    margin: 0;
+    padding: 0;
+}
+
+.leaderboard {
+    border: 5px solid #a09822;
+    border-radius: 10px;
+    padding: 12px;
+    width: 40%;
+    height: 30%;
+    background-color: rgb(104, 95, 95);
+}
+
+button {
+    width: 150px;
+    height: 200px;
+    background-color: rgb(104, 95, 95);
+    color: black;
+    border: 5px solid #a09822;
+    border-radius: 10px;
+
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #a09822;
+    color: white;
+}
+
+.popupContainer {
+    position: absolute; 
+    color: #a09822;
+    font-weight: 900;
+    font-size: 46px;
+}
+
+.buttonContainer {
+    display: flex;
+    gap: 32px;
+}
